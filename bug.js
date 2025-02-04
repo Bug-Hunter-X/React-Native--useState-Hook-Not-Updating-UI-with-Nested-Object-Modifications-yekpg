@@ -1,0 +1,1 @@
+This error occurs when using the `useState` hook in React Native with a complex object as the initial state.  If you modify the state object directly, React Native might not detect the change and the UI won't re-render.  This is because React compares object references, not the object content itself.
